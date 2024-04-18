@@ -1,63 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
-
-
-*{
-    padding: 0%;
-    margin: 0%;
-    border-radius: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border-radius: border-box;
 }
 
-
-body{
-    font-family:"inter";
-    font-size: 14px;
-    font-weight:  400;
-    background-color:  hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 12%) ;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    line-height: 1.5;
-
-
-
-
-
-
+body {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  line-height: 1.5;
+  text-align: center;
 }
-h1{
-    color: hsl(0, 0%, 100%);
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 10px;
 }
 
-main{
-    padding: 1.8rem;
-    background-color:  hsl(0, 0%, 20%);
-    border-radius: 0.5rem;
-    
-
+h4 {
+  font-size: 10px;
+  font-weight: 400;
+  gap: 3rem;
+}
+main {
+  padding: 1.8rem;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-
-#image{
-    cursor: pointer;
-    width: 100%;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    justify-content: space-between;
-    border-bottom: 1px;
-    
-
-
+img {
+  width: 5rem;
+  border-radius: 100%;
 }
 
+p {
+  color: hsl(75, 94%, 57%);
+  font-size: 10px;
+}
 
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
 
+li {
+  padding: 10px;
+  border-radius: 0.35rem;
+  font-weight: 600;
+  background-color: hsl(0, 0%, 20%);
+}
 
-#paragraph{
-    color: hsl(75, 94%, 57%);
+li:not(:last-of-type) {
+  margin-bottom: 1rem;
 }
